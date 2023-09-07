@@ -52,7 +52,7 @@ variable "digitalocean_preferred_country_region_slugs" {
   }]
 }
 
-variable "digital_ocean_region_slug_pattern_country_code_mapping" {
+variable "digitalocean_region_slug_pattern_country_code_mapping" {
   type = list(map(string))
   default = [{
     "nyc1" : "US",
