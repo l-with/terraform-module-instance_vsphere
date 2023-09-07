@@ -82,7 +82,7 @@ No modules.
 | <a name="input_tags"></a> [tags](#input\_tags) | the tags to create and assign to the instance | `list(string)` | `[]` | no |
 | <a name="input_type"></a> [type](#input\_type) | the type of the instance (will be transformed matching the possiblities of the cloud\_provider) | <pre>object({<br>    vcpus : number,<br>    ram : number,<br>    disk : number,<br>  })</pre> | `null` | no |
 | <a name="input_user_data"></a> [user\_data](#input\_user\_data) | the cloud-Init user data to use during instance creation | `string` | `null` | no |
-| <a name="input_vsphere"></a> [vsphere](#input\_vsphere) | the vsphere names of the datacenter, datastore, cluster and network | <pre>object({<br>    datacenter_name   = string<br>    datastore_name    = string<br>    cluster_name      = string<br>    network_name      = string<br>    tag_category_name = optional(string, null)<br>    folder            = optional(string, "/")<br>    disk_name         = optional(string, "disk0")<br>  })</pre> | `null` | no |
+| <a name="input_vsphere"></a> [vsphere](#input\_vsphere) | the vsphere names of the datacenter, datastore, cluster and network and optional the name of tag\_category and disk and the folder | <pre>object({<br>    datacenter_name   = string<br>    datastore_name    = string<br>    cluster_name      = string<br>    network_name      = string<br>    folder            = optional(string, "/")<br>    disk_name         = optional(string, "disk0")<br>    tag_category_name = optional(string, null)<br>  })</pre> | `null` | no |
 
 #### Outputs
 
