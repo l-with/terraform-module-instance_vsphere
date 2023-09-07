@@ -31,15 +31,15 @@ variable "digitalocean_token" {
 }
 
 variable "vsphere" {
-  description = "the vsphere names of the datacenter, datastore, cluster and network"
+  description = "the vsphere names of the datacenter, datastore, cluster and network and optional the name of tag_category and disk and the folder"
   type = object({
     datacenter_name   = string
     datastore_name    = string
     cluster_name      = string
     network_name      = string
-    tag_category_name = optional(string, null)
     folder            = optional(string, "/")
     disk_name         = optional(string, "disk0")
+    tag_category_name = optional(string, null)
   })
   default = null
 }
