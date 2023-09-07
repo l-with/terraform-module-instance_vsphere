@@ -8,7 +8,7 @@ Terraform module to provide instance on
 
 ## Motivation
 
-The intention is to make switching between platforms as easy as possible- 
+The motivation is to make switching between platforms as easy as possible.
 
 ## terraform
 
