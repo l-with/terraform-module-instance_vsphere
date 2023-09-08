@@ -24,9 +24,6 @@ The motivation is to make switching between platforms as easy as possible.
 
 | Name | Version |
 |------|---------|
-| <a name="provider_digitalocean"></a> [digitalocean](#provider\_digitalocean) | n/a |
-| <a name="provider_hcloud"></a> [hcloud](#provider\_hcloud) | n/a |
-| <a name="provider_http"></a> [http](#provider\_http) | n/a |
 | <a name="provider_vsphere"></a> [vsphere](#provider\_vsphere) | ~> 2.4.2 |
 
 #### Modules
@@ -37,22 +34,8 @@ No modules.
 
 | Name | Type |
 |------|------|
-| [digitalocean_droplet.instance](https://registry.terraform.io/providers/hashicorp/digitalocean/latest/docs/resources/droplet) | resource |
-| [digitalocean_reserved_ip.instance](https://registry.terraform.io/providers/hashicorp/digitalocean/latest/docs/resources/reserved_ip) | resource |
-| [digitalocean_reserved_ip_assignment.instance](https://registry.terraform.io/providers/hashicorp/digitalocean/latest/docs/resources/reserved_ip_assignment) | resource |
-| [digitalocean_tag.instance](https://registry.terraform.io/providers/hashicorp/digitalocean/latest/docs/resources/tag) | resource |
-| [hcloud_primary_ip.instance](https://registry.terraform.io/providers/hashicorp/hcloud/latest/docs/resources/primary_ip) | resource |
-| [hcloud_server.instance](https://registry.terraform.io/providers/hashicorp/hcloud/latest/docs/resources/server) | resource |
-| [hcloud_server.instance_with_primary_ip](https://registry.terraform.io/providers/hashicorp/hcloud/latest/docs/resources/server) | resource |
 | [vsphere_tag.instance](https://registry.terraform.io/providers/hashicorp/vsphere/latest/docs/resources/tag) | resource |
 | [vsphere_virtual_machine.instance](https://registry.terraform.io/providers/hashicorp/vsphere/latest/docs/resources/virtual_machine) | resource |
-| [http_http.digitalocean_images](https://registry.terraform.io/providers/hashicorp/http/latest/docs/data-sources/http) | data source |
-| [http_http.digitalocean_regions](https://registry.terraform.io/providers/hashicorp/http/latest/docs/data-sources/http) | data source |
-| [http_http.digitalocean_sizes](https://registry.terraform.io/providers/hashicorp/http/latest/docs/data-sources/http) | data source |
-| [http_http.hetzner_datacenters](https://registry.terraform.io/providers/hashicorp/http/latest/docs/data-sources/http) | data source |
-| [http_http.hetzner_images](https://registry.terraform.io/providers/hashicorp/http/latest/docs/data-sources/http) | data source |
-| [http_http.hetzner_locations](https://registry.terraform.io/providers/hashicorp/http/latest/docs/data-sources/http) | data source |
-| [http_http.hetzner_server_types](https://registry.terraform.io/providers/hashicorp/http/latest/docs/data-sources/http) | data source |
 | [vsphere_compute_cluster.instance](https://registry.terraform.io/providers/hashicorp/vsphere/latest/docs/data-sources/compute_cluster) | data source |
 | [vsphere_datacenter.instance](https://registry.terraform.io/providers/hashicorp/vsphere/latest/docs/data-sources/datacenter) | data source |
 | [vsphere_datastore.instance](https://registry.terraform.io/providers/hashicorp/vsphere/latest/docs/data-sources/datastore) | data source |
