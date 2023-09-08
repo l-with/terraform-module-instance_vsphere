@@ -18,16 +18,14 @@ The motivation is to make switching between platforms as easy as possible.
 | Name | Version |
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.3 |
-| <a name="requirement_digitalocean"></a> [digitalocean](#requirement\_digitalocean) | ~> 2.22.2 |
-| <a name="requirement_hcloud"></a> [hcloud](#requirement\_hcloud) | ~> 1.42 |
 | <a name="requirement_vsphere"></a> [vsphere](#requirement\_vsphere) | ~> 2.4.2 |
 
 #### Providers
 
 | Name | Version |
 |------|---------|
-| <a name="provider_digitalocean"></a> [digitalocean](#provider\_digitalocean) | ~> 2.22.2 |
-| <a name="provider_hcloud"></a> [hcloud](#provider\_hcloud) | ~> 1.42 |
+| <a name="provider_digitalocean"></a> [digitalocean](#provider\_digitalocean) | n/a |
+| <a name="provider_hcloud"></a> [hcloud](#provider\_hcloud) | n/a |
 | <a name="provider_http"></a> [http](#provider\_http) | n/a |
 | <a name="provider_vsphere"></a> [vsphere](#provider\_vsphere) | ~> 2.4.2 |
 
@@ -39,13 +37,13 @@ No modules.
 
 | Name | Type |
 |------|------|
-| [digitalocean_droplet.instance](https://registry.terraform.io/providers/digitalocean/digitalocean/latest/docs/resources/droplet) | resource |
-| [digitalocean_reserved_ip.instance](https://registry.terraform.io/providers/digitalocean/digitalocean/latest/docs/resources/reserved_ip) | resource |
-| [digitalocean_reserved_ip_assignment.instance](https://registry.terraform.io/providers/digitalocean/digitalocean/latest/docs/resources/reserved_ip_assignment) | resource |
-| [digitalocean_tag.instance](https://registry.terraform.io/providers/digitalocean/digitalocean/latest/docs/resources/tag) | resource |
-| [hcloud_primary_ip.instance](https://registry.terraform.io/providers/hetznercloud/hcloud/latest/docs/resources/primary_ip) | resource |
-| [hcloud_server.instance](https://registry.terraform.io/providers/hetznercloud/hcloud/latest/docs/resources/server) | resource |
-| [hcloud_server.instance_with_primary_ip](https://registry.terraform.io/providers/hetznercloud/hcloud/latest/docs/resources/server) | resource |
+| [digitalocean_droplet.instance](https://registry.terraform.io/providers/hashicorp/digitalocean/latest/docs/resources/droplet) | resource |
+| [digitalocean_reserved_ip.instance](https://registry.terraform.io/providers/hashicorp/digitalocean/latest/docs/resources/reserved_ip) | resource |
+| [digitalocean_reserved_ip_assignment.instance](https://registry.terraform.io/providers/hashicorp/digitalocean/latest/docs/resources/reserved_ip_assignment) | resource |
+| [digitalocean_tag.instance](https://registry.terraform.io/providers/hashicorp/digitalocean/latest/docs/resources/tag) | resource |
+| [hcloud_primary_ip.instance](https://registry.terraform.io/providers/hashicorp/hcloud/latest/docs/resources/primary_ip) | resource |
+| [hcloud_server.instance](https://registry.terraform.io/providers/hashicorp/hcloud/latest/docs/resources/server) | resource |
+| [hcloud_server.instance_with_primary_ip](https://registry.terraform.io/providers/hashicorp/hcloud/latest/docs/resources/server) | resource |
 | [vsphere_tag.instance](https://registry.terraform.io/providers/hashicorp/vsphere/latest/docs/resources/tag) | resource |
 | [vsphere_virtual_machine.instance](https://registry.terraform.io/providers/hashicorp/vsphere/latest/docs/resources/virtual_machine) | resource |
 | [http_http.digitalocean_images](https://registry.terraform.io/providers/hashicorp/http/latest/docs/data-sources/http) | data source |
